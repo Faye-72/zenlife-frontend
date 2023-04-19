@@ -8,13 +8,13 @@ import { NavBar } from "./components/NavBar";
 import { Home } from "./components/Home";
 
 function App() {
-  const [showSignup, setShowSignup] = useState(false);
+  // const [showSignup, setShowSignup] = useState(false);
 
   const handleFormSwitch = (formType) => {
     if (formType === "Signup") {
-      setShowSignup(true);
+      // setShowSignup(true);
     } else {
-      setShowSignup(false);
+      // setShowSignup(false);
     }
   };
 
